@@ -1,0 +1,17 @@
+# RDP Manager plugin for Noctalia
+id = "aleksander/remmina_manager"
+name = "RDP Manager"
+version = "1.0.0"
+min_noctalia = "5.0.0"
+author = "aleksander"
+license = "MIT"
+tags = ["network", "rdp"]
+icon = "device-desktop"
+description = "Displays a list of VPN connections and allows toggling them via nmcli."
+
+[[launcher_provider]]
+id = "vpn_list"
+entry = "remmina_manager.luau"
+prefix = "/rdp"
+glyph = "device-desktop"
+include_in_global_search = true

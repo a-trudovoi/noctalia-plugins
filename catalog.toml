@@ -1,0 +1,21 @@
+[[plugin]]
+id = "aleksander/vpn_manager"
+name = "VPN Manager"
+version = "1.0.0"
+author = "aleksander"
+license = "MIT"
+icon = "brand-openvpn"
+description = "Displays a list of VPN connections and allows toggging them via nmcli."
+min_noctalia = "5.0.0"
+tags = ["network", "vpn"]
+
+[[plugin]]
+id = "aleksander/remmina_manager"
+name = "RDP Manager"
+version = "1.0.0"
+author = "aleksander"
+license = "MIT"
+icon = "device-desktop"
+description = "Displays a list of RDP connections and allows connect them."
+min_noctalia = "5.0.0"
+tags = ["network", "rdp"]

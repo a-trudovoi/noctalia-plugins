@@ -1,0 +1,17 @@
+# VPN Manager plugin for Noctalia
+id = "aleksander/vpn_manager"
+name = "VPN Manager"
+version = "1.0.0"
+min_noctalia = "5.0.0"
+author = "aleksander"
+license = "MIT"
+tags = ["network", "vpn"]
+icon = "brand-openvpn"
+description = "Displays a list of VPN connections and allows toggling them via nmcli."
+
+[[launcher_provider]]
+id = "vpn_list"
+entry = "vpn_manager.luau"
+prefix = "/vpn"
+glyph = "brand-openvpn"
+include_in_global_search = true
