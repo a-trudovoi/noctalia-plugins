@@ -36,7 +36,6 @@ local function getRDPConnections()
           title = name ~= "" and name or id,
           glyph = "device-desktop"
         })
-        noctalia.notify("DEBUG", "after add str " .. name)
       end
     end
 
